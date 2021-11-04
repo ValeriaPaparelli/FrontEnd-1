@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    padding: 15px;
+}
+
+/*HEADER*/
+
+header {
+    background-color: rgb(235, 247, 159);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+}
+
+#img-foto {
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+h1 {
+    background-color: rgb(234, 250, 134);
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    width: 100%;
+    color: sandybrown;
+}
+
+h3 {
+    background-color: rgb(234, 250, 134);
+    color: sandybrown;
+    width: 100%;
+    padding-left: 15px;
+}
+
+section {
+    line-height: 30px;
+}
+
+/*SECCIÓN DATOS PERSONALES*/
+
+.section-datos {
+    margin-top: 100px;
+}
+
+ul {
+    margin: 35px;
+}
+
+.negrita-cursiva {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*SECCIÓN FORMACIÓN ACADÉMICA*/
+
+.section-formacion, .section-laboral {
+    margin: 20px;
+}
+
+/*SECCIÓN EXPERIENCIA LABORAL*/
+
+.section-laboral {
+    margin-bottom: 100px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: sandybrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#p-footer {
+    color: seashell;
+    font-style: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
