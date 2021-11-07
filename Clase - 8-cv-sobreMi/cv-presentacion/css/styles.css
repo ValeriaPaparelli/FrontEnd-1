@@ -1,0 +1,143 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+
+.imagen-fondo {
+    background-image: url(../img/foto.jpg);
+    width: 100%;
+    height: 400px;
+    opacity: 0.5;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: #aabe88;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+}
+
+li {
+    margin-top: 30px;
+}
+
+li a {
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(253, 253, 249);
+    background-color: #5d7044;
+    padding: 10px 15px;
+}
+
+li a:hover {
+    background-color: #7a7a7a;
+}
+
+/*MAIN*/
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+#titulo-principal {
+    color: #41561d;
+    margin-bottom: 15px;
+}
+
+.img-principal {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+/*SECCIONES*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 90%;
+}
+
+h3 {
+    color: #5d7044;
+    margin: 10px 0;
+    background-color: rgb(231, 229, 220);
+    opacity: 0.7;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+p {
+    line-height: 35px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #5d7044;
+    margin-top: 35px;   
+}
+
+.parrafo-footer {
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.iconos {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.fab {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.fa-github {
+    margin-right: 10px; 
+ }
+
+ .fa-linkedin {
+    margin-left: 10px;
+ }
+
+/*---SOBRE MI---*/
+
+#sobreMi {
+    text-align: center;
+}
+
+#titulo-sobreMi {
+    margin-top: 20px;
+    color: #41561d;
+    margin-bottom: 15px;
+}
+
+/* #parrafos-sobreMi {
+    width: 80%;
+    text-align: center;
+}
+
+ */
+
+ 
