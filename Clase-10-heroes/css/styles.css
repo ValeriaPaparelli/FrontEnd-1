@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-top: 80px;
+}
+
+#fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
 .container-principal {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 100px;
-
 }
 
 #titulo-desc {
@@ -44,7 +54,8 @@
 .img-heart {
     position: relative;
     left: 21px;
-    top: -70px
+    top: -70px;
+    z-index: 0;
 }
 
 .img-heroe {
@@ -52,6 +63,7 @@
     position: relative;
     top: 120px;
     left: 55px;
+    z-index: 0;
 }
 
 .titulo-sec {
