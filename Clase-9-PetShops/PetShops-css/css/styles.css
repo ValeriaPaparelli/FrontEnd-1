@@ -76,7 +76,9 @@ body {
 #img-principal {
     background-image: url(../img/Slide.png);
     background-size: cover;
-    height: 400px;
+    height: 409px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /****Titulos****/
@@ -84,33 +86,46 @@ body {
 .titulos-main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 156px;
+    margin-right: 12px;
 }
 
 .titulo-principal {
     background-color: white;
-    color: #3C2313;
-    width: 345px;
-    border-radius: 3px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 30px;
-    padding: 5px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    padding: 9px 10px;
+    margin-bottom: 12px;
 }
 
 .titulo-secundario {
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
+    line-height: 19px;
     color: #3C2313;
-    margin-right: 90px;
+    text-align: center;
+    margin-bottom: 12px;
 }
 
 .button-principal {
     background-color: #F0A83E;
     border: none;
     color: white;
-    width: 100px;
-    padding: 10px;
+    padding: 15px 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
 }
 
 /****Secciòn Productos destacados****/
@@ -136,7 +151,6 @@ body {
 
 .nav {
     display: flex;
-    flex-direction: row;
     list-style: none;
     justify-content: center;
 }
@@ -148,6 +162,7 @@ body {
 
 .nav li a{
     text-decoration: none;
+    color: #666666;
 }
 
 /****SECCIÓN CARDS****/
@@ -164,6 +179,12 @@ body {
 .p-cards {
     color: #3C2313;
     padding-top: 10px;
+    font-weight: bold;
+    font-weight: 15px;
+}
+
+.precio {
+    color: #F0A83E;
 }
 
 /****FORM****/
@@ -175,16 +196,93 @@ body {
     margin: 50px 0;
 }
 
+.title-form {
+    color: #3C2313;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
 .form-input {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 340px;
+}
+
+.input {
+    background-color: #3C2313;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.button-form {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 110px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.reset {
+    background-color: #8a8787;
+}
+
+.send {
+    background-color: #F0A83E;
 }
 
 /****SECCIÓN NOVEDADES****/
 
-.news {
+.newsletter {
+    display: flex;
     background-color: #F0A83E;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.news {
+    display: flex;
+}
+
+.fa-envelope {
+    color: white;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.news-titulo {
+    color: white;
+    size: 20px;
+    margin-top: 12px;
+}
+
+.input-news {
+    border-radius: 15px;
+    border: none;
+    width: 271px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+::placeholder {
+    color: rgb(219, 219, 219);
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.buton-news {
+    border-radius: 15px;
+    border: none;
+    background-color: #3C2313;
+    color: white;
+    width: 70px;
+    height: 34px;
+    font-size: 10px;
 }
 
 /****FOOTER****/
@@ -193,6 +291,40 @@ footer {
     background-color: #3C2313;
 }
 
+/****Sección Contacto****/
+
+.section-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 70px;
+}
+
+.contacto {
+    display: flex;
+    color: white;
+    padding: 10px 0px;
+}
+
+.contacto-img {
+    margin-right: 20px;
+}
+
+.contacto-title {
+    font-size: 18px;
+}
+
+.contacto-p {
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+}
+
 #derechos {
     background-color: #222222;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
 } 

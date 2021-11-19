@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>PetShop</title>
 </head>
@@ -65,7 +65,7 @@
                 </div>
                 <div>
                     <p class="p-cards">Juguete churrasquito</p>
-                    <p class="p-cards">$150</p>
+                    <p class="p-cards precio">$150</p>
                 </div>
             </div>
             <div class="card">
@@ -74,7 +74,7 @@
                 </div>
                 <div>    
                     <p class="p-cards">Comedero para perro</p>
-                    <p class="p-cards">$250</p>
+                    <p class="p-cards precio">$250</p>
                 </div>
             </div>
             <div class="card">
@@ -83,53 +83,65 @@
                 </div>
                 <div>   
                     <p class="p-cards">Juguete huesito</p>
-                    <p class="p-cards">$650</p>
+                    <p class="p-cards precio">$650</p>
                 </div>
             </div>   
         </section> 
         <form class="form">
-            <div class="title-form">
-                <h3>Contáctanos</h3>
-            </div>
+            <h3 class="title-form">Contáctanos</h3>
             <div class="form-input">
-                <input type="text" name="nombreApellido" placeholder="Nombre y Apellido">
-                <input type="text" name="email" placeholder="Ingresá tu correo electrónico">
-                <input type="text" name="telefono" placeholder="Telefono">
+                <input class="input" type="text" name="nombreApellido" placeholder="Nombre y Apellido">
+                <input class="input" type="text" name="email" placeholder="Ingresá tu correo electrónico">
+                <input class="input" type="text" name="telefono" placeholder="Telefono">
             </div>
-            <div class="form-button">
-                <button>Resetear</button>
-                <button>Enviar</button>
+            <div>
+                <button class="button-form reset">Resetear</button>
+                <button class="button-form send">Enviar</button>
             </div>
         </form> 
-        <section class="news"><!--Sección Novedades-->
-            <div>
-                <img src="#" alt="ícono-sobre">
-                <h3>Suscríbete para más novedades</h3>
+        <section class="newsletter"><!--Sección Novedades-->
+            <div class="news">
+                <i class="far fa-envelope"></i>
+                <h3 class="news-titulo">Suscríbete para más novedades</h3>
             </div>
-            <div>
-                <input type="text" name="email" placeholder="Ingresá tu correo electrónico">
-                <button>Suscribirme</button>
+            <div class="subscription">
+                <input class="input-news" type="text" name="email" placeholder="Ingresá tu correo electrónico">
+                <button class="buton-news">Suscribirme</button>
             </div>   
         </section>
     <footer>
-        <section class="section-contacto"> 
+        <section class="section-contacto">
             <div>
-                <img src="#" alt="logo-ubicación">
-                <h4>Localidad</h4>
-                <p>calle-provincia</p>
-            </div>
+                <div class="contacto">
+                    <div>
+                        <img class="contacto-img" src="./img/Icon-location.png" alt="logo-ubicación">
+                    </div>
+                    <div>
+                        <h4 class="contacto-title">Localidad</h4>
+                        <p class="contacto-p">calle-provincia</p>
+                    </div>
+                </div>
+                <div class="contacto">
+                    <div>
+                        <img class="contacto-img" src="./img/Icon-tel.png" alt="logo-teléfono">
+                    </div>
+                    <div>
+                        <h4 class="contacto-title">Teléfono</h4>
+                        <p class="contacto-p">Número de teléfono</p>
+                    </div>
+                </div>
+                <div class="contacto">
+                    <div>
+                        <img class="contacto-img" src="./img/Icon-mail.png" alt="logo-email">
+                    </div>
+                    <div>
+                        <h4 class="contacto-title">Correo Electrónico</h4>
+                        <p class="contacto-p">Dirección de correo</p>
+                    </div>
+                </div>
+            </div>     
             <div>
-                <img src="#" alt="logo-teléfono">
-                <h4>Teléfono</h4>
-                <p>Número de teléfono</p>
-            </div>
-            <div>
-                <img src="#" alt="logo-email">
-                <h4>Correo Electrónico</h4>
-                <p>Dirección de correo</p>
-            </div>
-            <div>
-                <img src="#" alt="logo">
+                <img class="logo-footer" src="./img/Logo.png" alt="logo">
             </div>
         </section>
         <div id="derechos">
