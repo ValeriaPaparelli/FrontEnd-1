@@ -22,6 +22,11 @@ body {
     margin-top: 100px;
 }
 
+.container {
+    width: 300px;
+    background-color: #F3F3F3;
+}
+
 #titulo-desc {
     background-color: #1CD1B0;
     padding: 10px;
@@ -30,11 +35,6 @@ body {
 #titulo-principal {
     background-color: #00669F;
     padding: 20px;
-}
-
-.container {
-    width: 300px;
-    background-color: #F3F3F3;
 }
 
 .img-background {

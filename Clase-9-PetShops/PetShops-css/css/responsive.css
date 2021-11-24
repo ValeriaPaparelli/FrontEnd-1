@@ -1,0 +1,31 @@
+/****RESPONSIVE****/
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+   .menu-ham {
+        display: block;
+    }
+    .titulo-destacados {
+        align-self: center;
+    } 
+    .titulo-secundario {
+        color: white;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .newsletter {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 10px 15px;
+    }
+    .news {
+        margin-bottom: 10px;
+    }
+    .section-contacto {
+        flex-direction: column-reverse;
+    }
+}
+
