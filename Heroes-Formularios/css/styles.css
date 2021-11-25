@@ -189,6 +189,11 @@ form {
      font-weight: bold;
      margin-top: 20px;
  }
+
+ .button-login:hover {
+    background-color: #00669F;
+    color: white;
+ }
  
  .parrafo {
      margin-top: 10px;
